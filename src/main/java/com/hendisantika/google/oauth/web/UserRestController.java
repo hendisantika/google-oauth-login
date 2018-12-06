@@ -7,15 +7,14 @@ import java.security.Principal;
 
 /**
  * Rest controller for getting logged user details
- * 
- * @author Sarath Muraleedharan
  *
+ * @author Hendi Santika
  */
 @RestController
 public class UserRestController {
-	@RequestMapping("/user")
-	public Principal sayHello(Principal principal) {
-		return principal;
-	}
+    @RequestMapping("/user")
+    public Principal sayHello(Principal principal) {
+        return principal;
+    }
 
 }
